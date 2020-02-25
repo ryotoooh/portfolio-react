@@ -10,7 +10,7 @@ class App extends Component {
         {
           title: 'Travel Agent Kabuki Node',
           img: 'Travel-Agent-Kabuki.png',
-          description: 'A travel-agency web site project using Node, Express and MongoDB. The purposes of this project are understanding a server-side Javascript - Node, and a database - MongoDB as well as GET, POST, PUT and DELETE requests. Basically, transformed from the PHP and MySQL version. This is an ongoing project. Not all functions are completed.',
+          description: 'A travel-agency web site project using Node, Express and MongoDB. The purposes of this project are understanding a server-side Javascript - Node, and a database - MongoDB as well as GET, POST, PUT and DELETE requests. Basically, transformed from the PHP and MySQL version.',
           icon: [
             'MongoDB',
             'Express.js',
@@ -149,6 +149,23 @@ class App extends Component {
             {
               title: 'Go Website',
               url: 'https://hisanabe1.it5a.com.au/'
+            }
+          ]
+        }, {
+          title: 'Yelp Camp',
+          img: 'Yelp-Camp.png',
+          description: 'CMS with RESTful API created on Node.js and Express.js back-end. Bootstrap is used for front-end.',
+          icon: [
+            'MongoDB',
+            'Express.js',
+            'Node.js',
+            'Bootstrap',
+            'Heroku'
+          ],
+          button: [
+            {
+              title: 'Go Website',
+              url: 'https://yelp-camp-ryotoooh.herokuapp.com/'
             }
           ]
         }, {
