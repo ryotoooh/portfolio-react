@@ -70,11 +70,11 @@ class Button extends Component {
       }
 
       return (
-      <img key={index} className="mr-1" src={`icons/${url}`} width="32px" alt={ico} />
+      <img key={index} className="icon mr-1" src={`icons/${url}`} width="32px" alt={ico} />
     )})
 
     return (
-      <p>
+      <p className="text-center">
         {icons}
       </p>
     )

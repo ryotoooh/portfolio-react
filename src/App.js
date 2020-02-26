@@ -8,9 +8,9 @@ class App extends Component {
     this.state = {
       project: [
         {
-          title: 'Travel Agent Kabuki Node',
+          title: 'Kabuki Travel',
           img: 'Travel-Agent-Kabuki.png',
-          description: 'A travel-agency web site project using Node, Express and MongoDB. The purposes of this project are understanding a server-side Javascript - Node, and a database - MongoDB as well as GET, POST, PUT and DELETE requests. Basically, transformed from the PHP and MySQL version.',
+          description: 'MEN stack CMS. Built REST API with Node.js, Express and MongoDB. Vanila CSS for responsive design and EJS template engine. Implemented a Form input validation on server side, user authentiation and image file uploading. Complied ES6 syntax using Babel and deployed to Heroku server.',
           icon: [
             'MongoDB',
             'Express.js',
@@ -28,9 +28,9 @@ class App extends Component {
             }
           ]
         }, {
-          title: 'Todo List React',
+          title: 'Todo List',
           img: 'Todo-List-React.png',
-          description: 'A single page web application created by Node.js, Express.js, React.js and MongoDB. This is a part of projects from <a href="https://www.udemy.com/the-advanced-web-developer-bootcamp/">The Advanced Web Developer Bootcamp</a> by Colt Steele. The list is lively updated via socket.io.',
+          description: 'MERN Full-stack Todo List. Built REST API with Node.js, Express and MongoDB. React front-end and state management. Real time list update by Socket.io. Thanks to <a href="https://www.udemy.com/the-advanced-web-developer-bootcamp/" class="text-muted">The Advanced Web Developer Bootcamp</a> by Colt Steele.',
           icon: [
             'Socket.io',
             'MongoDB',
@@ -46,9 +46,9 @@ class App extends Component {
             }
           ]
         }, {
-          title: 'Weather App Node',
+          title: 'Weather App',
           img: 'Weather-App.png',
-          description: 'A simple weather API Node web application. The purposes of this project are understanding Web API service and JSON data. Enter a city name to a input field to show temperature (in degree Celsius) and show a drink icon depends on it\'s temperature.',
+          description: 'Built API to fetch Open Weather API with Node.js and Express. EJS template engine to update responce.<br /><br />Type a city name and hite enter. A drink icon - beer mug or tea cup - and temperature will be shown.',
           icon: [
             'Express.js',
             'Node.js',
@@ -67,7 +67,7 @@ class App extends Component {
         }, {
           title: 'Guess Flag Game',
           img: 'Guess-Flag-Game.png',
-          description: 'Built a single page application fetching an API to show a country flag to guess its name',
+          description: 'Fetching API, and state management and score tracking by React. Responsive styling with Bootstrap. Deployed to Google Cloud Platform via Docker. DNS management with Cloudflare.<br /><br />Select a country name out of four selection for the flag shown above.',
           icon: [
             'React.js',
             'Bootstrap',
@@ -84,9 +84,9 @@ class App extends Component {
             }
           ]
         }, {
-          title: 'Todo List jQuery',
+          title: 'Todo List',
           img: 'Todo-List-jQuery.png',
-          description: 'A single page web application created by jQuery, Node.js, Express.js and MongoDB. This is a part of projects from <a href="https://www.udemy.com/the-advanced-web-developer-bootcamp/">The Advanced Web Developer Bootcamp</a> by Colt Steele.',
+          description: 'Built REST API with Node.js, Express and MongoDB. jQuery for front-end. Deployed to Amazon EC2 as PM2 instance. Thanks to <a href="https://www.udemy.com/the-advanced-web-developer-bootcamp/" class="text-muted">The Advanced Web Developer Bootcamp</a> by Colt Steele.',
           icon: [
             'jQuery',
             'MongoDB',
@@ -104,7 +104,7 @@ class App extends Component {
         }, {
           title: 'Camera Store',
           img: 'Camera-Store.png',
-          description: 'A simple static Node and Express website. The purposes of this project are deploying simple static files - image and style sheet, and understanding GET and POST requests through API. Original project is made by PHP.',
+          description: 'Built multiple-page webapplication with Node.js and Express. Image file upload funcion and routing.',
           icon: [
             'Express.js',
             'Node.js',
@@ -120,9 +120,26 @@ class App extends Component {
             }
           ]
         }, {
-          title: 'Travel Agent Kabuki PHP',
+          title: 'Yelp Camp',
+          img: 'Yelp-Camp.png',
+          description: 'MEN stack CMS. Built REST API with Node.js, Express and MongoDB. Bootstrap for responsive design and EJS template engine. Implemented a Form input validation on client side, user authentiation and Google Map API. Developed mongoose schema to track posts associating with a user.',
+          icon: [
+            'MongoDB',
+            'Express.js',
+            'Node.js',
+            'Bootstrap',
+            'Heroku'
+          ],
+          button: [
+            {
+              title: 'Go Website',
+              url: 'https://yelp-camp-ryotoooh.herokuapp.com/'
+            }
+          ]
+        }, {
+          title: 'Kabuki Trabel',
           img: 'Travel-Agent-Kabuki.png',
-          description: 'A travel-agency web site project using PHP and MySQL. The purposes of this project are understanding a basic server-side language - PHP, and a relational database - MySQL as well as GET, POST, PUT and DELETE requests.',
+          description: 'Built REST API with PHP and MySQL. Vanila CSS for responsive design. Implemented a Form input validation on server side, user authentiation and image file uploading.',
           icon: [
             'PHP',
             'MySQL',
@@ -140,7 +157,7 @@ class App extends Component {
         }, {
           title: 'Island Travel',
           img: 'Island-Travel.png',
-          description: 'CMS website with an e-commerce functionality by WooCommerce. Optimising SEO.',
+          description: 'Built CMS with WordPress. Implemented an e-commerce function via WooCommerce plugin. Optimised SEO.',
           icon: [
             'WordPress',
             'WooCommerce'
@@ -152,26 +169,9 @@ class App extends Component {
             }
           ]
         }, {
-          title: 'Yelp Camp',
-          img: 'Yelp-Camp.png',
-          description: 'CMS with RESTful API created on Node.js and Express.js back-end. Bootstrap is used for front-end.',
-          icon: [
-            'MongoDB',
-            'Express.js',
-            'Node.js',
-            'Bootstrap',
-            'Heroku'
-          ],
-          button: [
-            {
-              title: 'Go Website',
-              url: 'https://yelp-camp-ryotoooh.herokuapp.com/'
-            }
-          ]
-        }, {
-          title: 'myGallery',
+          title: 'My Gallery',
           img: 'myGallery.png',
-          description: 'Using/exprementing Bootstap and Carousel to show photos.',
+          description: 'Built responsive photo gallery with Bootstap Carousel.',
           icon: [
             'Bootstrap'
           ],
@@ -185,9 +185,9 @@ class App extends Component {
             }
           ]
         }, {
-          title: 'myList',
+          title: 'My List',
           img: 'myList.png',
-          description: 'A very first project to understand CSS, Javascript, DOM and HTML.',
+          description: 'Built a DOM manipulated simple list with vanila HTML, CSS and JavaScript.',
           icon: [
             'JavaScript'
           ],
@@ -201,9 +201,9 @@ class App extends Component {
             }
           ]
         }, {
-          title: 'simpleCalculator',
+          title: 'Simple Calculator',
           img: 'simpleCalculator.png',
-          description: 'Again, a very simple project to understand CSS, Javascript, DOM and HTML.',
+          description: 'Built a DOM manipulated simple calculator with vanila HTML, CSS and JavaScript.',
           icon: [
             'JavaScript'
           ],
