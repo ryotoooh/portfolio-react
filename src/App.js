@@ -67,12 +67,13 @@ class App extends Component {
         }, {
           title: 'Guess Flag Game',
           img: 'Guess-Flag-Game.png',
-          description: 'Fetching API, and state management and score tracking by React. Responsive styling with Bootstrap. Deployed to Google Cloud Platform via Docker. DNS management with Cloudflare.<br /><br />Select a country name out of four selection for the flag shown above.',
+          description: 'Fetching API, and state management and score tracking by React. Responsive styling with Bootstrap. Experimented to deploy to Google Cloud Platform via Docker, now it\'s hosted on Heroku due to GCP cost. DNS management with Cloudflare.<br /><br />Select a country name out of four selection for the flag shown above.',
           icon: [
             'React.js',
             'Bootstrap',
             'Docker',
-            'Google Cloud Platform'
+            'Google Cloud Platform',
+            'Heroku'
           ],
           button: [
             {
